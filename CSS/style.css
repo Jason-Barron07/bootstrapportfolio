@@ -1,0 +1,223 @@
+*{
+
+    margin:0;
+    padding:0;
+    font-family: 'Poppins';
+    box-sizing: border-box;
+
+}
+
+body{
+
+    background:#080808 !important;
+    color:#fff !important; 
+
+}
+
+.container{
+
+    padding:10px 10%;
+
+}
+
+nav{
+
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    flex-wrap: wrap;
+
+}
+
+.logo{
+
+    width:220px;
+    border-radius: 0.5em;
+    border:#2dd4dc 4px solid ;
+
+}
+
+nav ul li{
+
+    display:inline-block;
+    list-style:none;
+    margin:10px 20px;
+
+}
+
+nav ul li a{
+
+    color:#fff;
+    text-decoration: none;
+    font-size:18px;
+    position: relative;
+}
+
+nav ul li a::after{
+
+    content:'';
+    width:0;
+    height:2px;
+    background:#2dd4dc;
+    position: absolute;
+    left:0;
+    bottom:-6px;
+    transition: 0.3s;
+}
+
+nav ul li a:hover::after{
+
+    width:100%;
+
+
+}
+
+nav{
+
+    width:100%;
+    position:sticky;
+
+}
+
+.head-text{
+
+    margin-top:20%;
+    font-size:30px;
+
+}
+
+.head-text h1{
+
+font-size: 60px;
+margin-top:20px;
+
+}
+
+.head-text h1 span{
+
+    color:#2dd4dc;
+
+}
+
+.me{
+    max-width: 25%;
+    float: right;
+    margin-top: -290px;
+    border-radius: 0.5em;
+}
+
+
+
+/*/CSS for the about/*/
+
+
+.About-me-text{
+
+    text-align: center;
+    font-size: 70px;
+    color:#2dd4dc;
+
+}
+
+
+
+.row{
+
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.about-col-1{
+
+    flex-basis:35%;
+
+}
+
+.about-col-1 img{
+
+width:100%;
+border-radius: 15px;
+
+}
+
+.about-col-2{
+
+flex-basis:60%
+
+}
+
+.sub-title{
+
+font-size:40px;
+font-weight: 600;
+color:#fff;
+
+
+}
+
+div div p .text{
+
+font-size: 100px;
+font-weight: 400;
+
+
+}
+
+/*/CSS for Contact page/*/
+
+.contact-heading{
+
+    text-align: center;
+    font-size: 70px;
+}
+
+span{
+
+    color:#2dd4dc;
+
+}
+
+
+
+
+.imgcon{
+
+    flex-basis: 35%;
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border-radius: 15px;
+    width:100%;
+  
+    
+
+}
+
+.wholeform{
+
+    display:flex;
+    justify-content: right;
+    margin:200px;
+    
+    
+}
+
+/*/CSS for testimonial/*/
+
+ #contact .row .contact-left .sub-title .socail-icon{
+
+    color:#fff
+
+}
+
+
+
+/*/footer/*/
+
+.navlink2{
+
+    margin-top: 150px;
+
+}
