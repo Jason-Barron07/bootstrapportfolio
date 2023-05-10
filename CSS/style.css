@@ -7,11 +7,13 @@
 
 }
 
-@media only screen and (max-width: 768px) {
-    [class*="col- container div"] {
-      width: 100%;
-    }
-  }
+@media screen and (min-width: 300px) {
+    
+} .me{
+
+    display: inline;
+}
+  
     
 
 
@@ -31,7 +33,7 @@ body{
 
 nav{
 
-    display:flex;
+    display:flex ;
     align-items:center;
     justify-content:space-between;
     flex-wrap: wrap;
