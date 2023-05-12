@@ -37,10 +37,39 @@
 
    }
 
+   .container .me{
+
+    display:none;
+
+
+}
+
+#about .about-col-1{
+
+    display:none;
+
+}
+
+.about-col-2 .sub-title{
+
+    display:flex;
+    justify-content: center;
+  
+
+}
 
 
 
 }
+
+  
+
+   
+
+
+
+
+
     
 
 
