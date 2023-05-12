@@ -66,9 +66,9 @@ body{
 
 }
 
-.container{
+.containerimg{
 
-    padding:10px 10%;
+    padding-left:10px 10% ;
 
 }
 
@@ -155,6 +155,7 @@ margin-top:20px;
    
     margin-top: -400px;
     border-radius: 0.5em;
+    margin-left: 300px;
     
 
 }
@@ -167,7 +168,7 @@ margin-top:20px;
 .About-me-text{
 
     text-align: center;
-    font-size: 70px;
+    font-size: 60px;
     color:#2dd4dc;
 
 }
@@ -259,34 +260,7 @@ span{
 
 /*/CSS for testimonial/*/
 
-@keyframes slideInLeft{
 
-    from{
-
-        transform:translateX(-300px);
-
-    }
-
-    to{
-
-        transform:translateX(0)
-
-    }
-
-}
-
-.container{
-    transform-style: preserve-3d;
-    animation-name: slideInLeft;
-    animation-duration: 1s;
-    animation-timing-function:ease-in ;
-    animation-iteration-count: 1;
-    animation-direction: 1;
-    animation-direction:normal;
-    animation-fill-mode: none;
-
-    
-}
 
 .container .box{
     position: relative;
