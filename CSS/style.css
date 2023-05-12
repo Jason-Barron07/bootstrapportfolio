@@ -18,18 +18,11 @@
   
 
     .head-text{
-
-        margin-top: 100%;
         font-size:16px;
 
     }
 
-    .head-text h1{
-
-        font-size:30px;
-
-    }
-
+    
     nav .fas{
 
         display:block;
@@ -38,18 +31,11 @@
 
     }
 
-    nav ul{
+   .container .me{
 
-       background:#2dd4dc; 
-       position:fixed;
-       top:0;
-       right:0;
-       width:200px;
-       height:100vh;
-       padding-top:50px
+    display:none;
 
-
-    }
+   }
 
 
 
